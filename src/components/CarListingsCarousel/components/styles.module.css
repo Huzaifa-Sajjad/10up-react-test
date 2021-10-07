@@ -1,0 +1,39 @@
+.container {
+  position: absolute;
+  bottom: 0;
+  right: 1.5rem;
+  display: flex;
+}
+
+.btn {
+  height: 36px;
+  width: 36px;
+  border-radius: 100%;
+  background-color: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 8px;
+  transition: transform 0.4s ease-in-out;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+@media screen and (max-width: 992px) {
+  .btn {
+    height: 30px;
+    width: 30px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    display: none;
+  }
+}

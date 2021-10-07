@@ -1,4 +1,6 @@
-[
+import { ICarLiting } from "../../src/types/Listing";
+
+const carsData:ICarLiting[] = [
     {
       "id": "xc90-recharge",
       "modelName": "XC90 Recharge", 
@@ -56,3 +58,5 @@
       "imageUrl": "/images/s60_recharge.jpg"
     }
 ]
+
+export default carsData;

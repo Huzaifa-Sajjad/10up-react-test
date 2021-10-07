@@ -1,0 +1,36 @@
+.card {
+  box-shadow: none !important;
+  margin-right: 1.5rem;
+}
+
+.card > div {
+  padding: 0;
+}
+
+.bodyType {
+  font-size: 14px !important;
+  line-height: 1 !important;
+  text-transform: uppercase;
+}
+
+.carName {
+  font-size: 18px !important;
+}
+
+.modalType {
+  font-size: 14px !important;
+}
+
+.carImage {
+  margin: 0.5rem 0 !important;
+}
+
+@media screen and (max-width: 768px) {
+  .bodyType,
+  .modalType {
+    font-size: 12px !important;
+  }
+  .carName {
+    font-size: 16px !important;
+  }
+}
